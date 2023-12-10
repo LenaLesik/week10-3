@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/week10-3.css">
+    <script src="./assets/week10-3.js"></script>
+</head>
+<body>
+    <h1>Котики</h1>
+<main>
+    
+    <button onclick="addLastImage()">Назад</button>
+    <img src="https://pazlyigra.ru/uploads/posts/2022-12/479679246.jpg" alt="first_cat" id="first-cat">
+    
+    <button onclick="addImage()">Вперед</button>
+    
+
+</main>
+
+
+</body>
+<script>
+    const image = document.getElementById('first-cat');
+    console.log(image);
+    
+    function addImage() {
+        image.src="https://new-year-party.ru/wp-content/uploads/2018/09/koty-17.jpg"
+    }
+
+    function addLastImage() {
+        image.src="https://pazlyigra.ru/uploads/posts/2022-12/479679246.jpg"
+    }
+</script>
+</html>

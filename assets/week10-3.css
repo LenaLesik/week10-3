@@ -1,0 +1,27 @@
+main {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+img {
+    height: 500px;
+}
+
+button {
+    height: 100px;
+    width: 200px;
+    margin: 10%;
+    background-color: blueviolet;
+    color: azure;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: blueviolet;
+}
